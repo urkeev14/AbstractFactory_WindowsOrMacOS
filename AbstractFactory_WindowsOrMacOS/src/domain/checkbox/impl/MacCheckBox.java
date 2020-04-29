@@ -14,14 +14,9 @@ import domain.checkbox.CheckBox;
 public class MacCheckBox implements CheckBox {
 
     @Override
-    public void onMarkCheckBox() {
+    public void onCheckBoxMark() {
         //Really dum print below, i know...
-        System.out.println("You selected MacCheckBox");
-    }
-
-    @Override
-    public void onCreate() {
-        System.out.println("You have created : " + this.getClass().getSimpleName());
+        System.out.println("You selected : MacCheckBox");
     }
 
 }

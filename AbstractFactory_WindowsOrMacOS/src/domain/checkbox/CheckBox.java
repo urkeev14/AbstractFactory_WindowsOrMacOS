@@ -11,8 +11,6 @@ package domain.checkbox;
  */
 public interface CheckBox {
     
-    void onCreate();
-    
-    void onMarkCheckBox();
+    void onCheckBoxMark();
     
 }

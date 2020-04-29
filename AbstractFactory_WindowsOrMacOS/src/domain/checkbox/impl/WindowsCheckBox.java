@@ -14,14 +14,10 @@ import domain.checkbox.CheckBox;
 public class WindowsCheckBox implements CheckBox {
 
     @Override
-    public void onMarkCheckBox() {
+    public void onCheckBoxMark() {
         //Really dum print below, i know...
-        System.out.println("You selected WindowsChechBox");
+        System.out.println("You selected : WindowsChechBox");
     }
 
-    @Override
-    public void onCreate() {
-        System.out.println("You have created : " + this.getClass().getSimpleName());
-    }
 
 }

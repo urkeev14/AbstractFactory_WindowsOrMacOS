@@ -19,8 +19,6 @@ public class Main {
     public static void main(String[] args) {
         FactoryKeeper concreteFactory = getConfiguredFactory();
         
-        concreteFactory.onCreate();
-        System.out.println("******************");
         concreteFactory.onClick();
 
     }

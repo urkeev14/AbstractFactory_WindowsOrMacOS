@@ -13,9 +13,4 @@ import domain.button.Button;
  */
 public class MacButton extends Button {
 
-    @Override
-    public void openBrowser() {
-        System.out.println("You opened: Safari");
-    }
-
 }

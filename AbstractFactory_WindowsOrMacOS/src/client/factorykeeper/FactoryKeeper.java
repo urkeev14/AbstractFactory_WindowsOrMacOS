@@ -24,13 +24,8 @@ public class FactoryKeeper {
     }
     
     public void onClick(){
-        button.openBrowser();
-        checkBox.onMarkCheckBox();
-    }
-    
-    public void onCreate(){
-        button.onCreate();
-        checkBox.onCreate();
+        button.onClickOfAButton();
+        checkBox.onCheckBoxMark();
     }
     
     
