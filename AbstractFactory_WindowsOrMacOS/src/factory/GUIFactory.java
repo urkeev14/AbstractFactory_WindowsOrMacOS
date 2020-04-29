@@ -3,16 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package domain.checkbox;
+package factory;
+
+import domain.button.Button;
+import domain.checkbox.CheckBox;
 
 /**
  *
  * @author urosv
  */
-public interface CheckBox {
-    
-    void onCreate();
-    
-    void onMarkCheckBox();
-    
+public interface GUIFactory {
+
+    Button createButton();
+
+    CheckBox createCheckBox();
+
 }

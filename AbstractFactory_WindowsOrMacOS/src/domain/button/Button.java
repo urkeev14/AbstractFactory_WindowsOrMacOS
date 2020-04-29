@@ -11,7 +11,7 @@ package domain.button;
  */
 public abstract class Button {
 
-    public void onClick() {
+    public void onCreate() {
         System.out.println("You have created : " + this.getClass().getSimpleName());
     }
     

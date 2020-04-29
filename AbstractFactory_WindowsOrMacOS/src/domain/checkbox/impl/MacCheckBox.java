@@ -11,12 +11,17 @@ import domain.checkbox.CheckBox;
  *
  * @author urosv
  */
-public class MacCheckBox implements CheckBox{
+public class MacCheckBox implements CheckBox {
 
     @Override
     public void onMarkCheckBox() {
         //Really dum print below, i know...
         System.out.println("You selected MacCheckBox");
     }
-    
+
+    @Override
+    public void onCreate() {
+        System.out.println("You have created : " + this.getClass().getSimpleName());
+    }
+
 }
